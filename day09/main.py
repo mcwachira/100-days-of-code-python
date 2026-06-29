@@ -15,16 +15,11 @@ def clear_screen():
 
 def get_valid_bid():
     while True:
-        bid = input("How Much would you like to bid?:")
+        bid = input("How Much would you like to bid?:$")
         if(bid.isdigit()):
             return int(bid)
         else:
             print('enter a valid number')
-
-
-
-
-
 
 
 play_again = True
